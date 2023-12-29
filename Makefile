@@ -1,2 +1,2 @@
 all:
-	gcc v4l2grab.c -o v4l2grab
+	g++ -o v4l2grab v4l2grab.cpp -std=c++11 -lstdc++
